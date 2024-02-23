@@ -2,16 +2,16 @@
     background-image: url(./mysterious.gif);
 }
 
-.whole-page {
-    scroll-timeline: --page_progress;
+.page-progress {
+    scroll-timeline: --page_progress vertical;
 }
 
 .scroll-progressbar{
     transform-origin: left;
     z-index: 10;
     scale: 0 1;
-    animation: auto scrollwatcher linear forwards;
-    animation-timeline: --page_progress;
+    animation: scrollwatcher linear forwards;
+    animation-timeline: --page-scroll;
 }
 
 @keyframes scrollwatcher {

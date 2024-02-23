@@ -14,8 +14,9 @@ const config: Config = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
       fontFamily: {
-        "Fredoka": ["Fredoka", "sans-serif"],
-        "Comfortaa": ["Comfortaa", "sans-serif"],
+        Fredoka: ['Fredoka', 'sans-serif'],
+        Comfortaa: ['Comfortaa', 'sans-serif'],
+        Oswald: ['Oswald', 'sans-serif'],
       },
     },
   },

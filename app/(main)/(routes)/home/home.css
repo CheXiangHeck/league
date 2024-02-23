@@ -5,3 +5,18 @@
     -webkit-mask-repeat: no-repeat;
     mask-repeat: no-repeat;  
 }
+
+.maskcharacterimage {
+    -webkit-mask-image: url(Paintv2.png);
+    mask-image: url(Paintv2.png);
+    mask-size: 100% 100%;
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat; 
+}
+
+.backgroundforchr {
+    background-image: url(Thresh.gif);
+    filter:blur(10px);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
