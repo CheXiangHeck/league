@@ -1,0 +1,7 @@
+.masked-text{
+    -webkit-mask-image: url(league.png);
+    mask-image: url(league.png);
+    mask-size: 100% 100%;
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;  
+}
