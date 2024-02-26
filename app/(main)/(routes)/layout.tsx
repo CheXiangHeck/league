@@ -43,7 +43,6 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
 
   return (
     <div className="w-full h-full cursor-default">
-      <div className="w-full h-[5px] bg-[#1efff9] fixed top-0 scroll-progressbar transition-all"></div>
       <div onClick={OpenSidebar}>
         <div
           className="m-3 cursor-pointer fixed top-0 left-0 z-20 text-[24px] w-[28px]"

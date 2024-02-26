@@ -20,3 +20,11 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.DotButton {
+    background-color: #1efff9;
+}
+
+.DotButtonActive {
+    background-color: #daa520;
+}
