@@ -7,7 +7,7 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
   const sidebarcontents = () => [
     {
       href: "Home",
-      location: "/anotherhome",
+      location: "/home",
     },
     {
       href: "About",
@@ -43,7 +43,6 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
 
   return (
     <div className="w-full h-full cursor-default">
-      <div className="w-full h-[5px] bg-[#1efff9] fixed top-0 scroll-progressbar transition-all"></div>
       <div onClick={OpenSidebar}>
         <div
           className="m-3 cursor-pointer fixed top-0 left-0 z-20 text-[24px] w-[28px]"
@@ -80,13 +79,7 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
         </div>
         <div className="w-full h-full sidebar-background absolute bg-center bg-cover top-0 blur-md -z-30"></div>
       </div>
-      <ThemeProvider
-        attribute="class"
-        defaultTheme="dark"
-        disableTransitionOnChange
-      >
-        {children}
-      </ThemeProvider>
+      {children}
     </div>
   );
 };

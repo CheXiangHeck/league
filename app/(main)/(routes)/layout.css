@@ -3,7 +3,7 @@
 }
 
 .whole-page {
-    scroll-timeline: --page_progress;
+    scroll-timeline: --page_progress block;
 }
 
 .scroll-progressbar{

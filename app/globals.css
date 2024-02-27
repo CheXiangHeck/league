@@ -1,8 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Fredoka:wght@300..700&family=Oswald:wght@200..700&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Fredoka:wght@300..700&display=swap');
 
 html,
 body, 
@@ -33,4 +32,68 @@ body,
 
 .scrollbar-hidden::-webkit-scrollbar{
   display: none;
+}
+
+.clip-ellipse {
+  clip-path: ellipse(55% 50% at 90% 50%);
+}
+
+.Link-Button {
+  position: relative;
+  background: #1efff9;
+  font-weight: bolder;
+}
+
+.Link-Button::after {
+  content:'';
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: -4px;
+  clip-path: polygon(0 0, 90% 0, 100% 10%, 100% 100%, 10% 100%, 0 90%);
+  border: 2px solid white;
+  left: 4px;
+}
+
+@keyframes ButtonHover {
+  0% {
+    clip-path: polygon(0 0, 90% 0, 100% 10%, 100% 100%, 10% 100%, 0 90%);
+    transform: scale(1);
+  }
+  50% {
+    clip-path: polygon(0 0, 95% 0, 100% 5%, 100% 100%, 5% 100%, 0 95%);
+  }
+  90% {
+    clip-path: polygon(0 0, 99% 0, 100% 1%, 100% 100%, 1% 100%, 0 99%);
+  }
+  100% {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    transform: scale(1.1);
+  }
+}
+
+@keyframes ButtonNotHover {
+  100% {
+    clip-path: polygon(0 0, 90% 0, 100% 10%, 100% 100%, 10% 100%, 0 90%);
+    transform: scale(1);
+  }
+  50% {
+    clip-path: polygon(0 0, 95% 0, 100% 5%, 100% 100%, 5% 100%, 0 95%);
+  }
+  10% {
+    clip-path: polygon(0 0, 99% 0, 100% 1%, 100% 100%, 1% 100%, 0 99%);
+  }
+  0% {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    transform: scale(1.1);
+  }
+}
+
+.Link-Button:hover::after {
+  animation: ButtonHover 0.1s ease-in-out forwards;
+}
+
+.Link-Button:not(hover)::after {
+  animation: ButtonNotHover 0.1s ease-in-out forwards;
 }
