@@ -69,6 +69,7 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
         {sidebarcontents().map((sidebarcontent) => (
           <a
             href={sidebarcontent.location}
+            key={sidebarcontent.location}
             className="text-zinc-400 hover:text-white hover:bg-zinc-700 p-2 rounded-xl mx-2 font-Oswald cursor-pointer"
           >
             {sidebarcontent.href}

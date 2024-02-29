@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function page() {
   return (
-    <div className="w-full h-full overflow-y-scroll scrollbar-hidden whole-page scroll-smooth snap-both snap-mandatory">
+    <div className="w-full h-full overflow-y-scroll scrollbar-hidden whole-page scroll-smooth snap-both snap-mandatory cursor-default">
       <div className="w-full h-[5px] bg-[#1efff9] fixed top-0 scroll-progressbar transition-all"></div>
       <div className="w-full h-full flex flex-col justify-center items-center relative snap-center">
         <div className="masked-text">
@@ -60,7 +60,7 @@ export default function page() {
         </div>
       </div>
       <div className="w-full h-full snap-center flex items-center justify-center">
-        <div className="w-[300px] h-[450px] text-black flex flex-col justify-center items-center rounded-3xl bg-white p-10 gap-10">
+        <div className="w-[350px] h-[450px] text-black flex flex-col justify-center items-center rounded-3xl bg-white p-10 gap-10">
           <img src="LeagueLogo.png" alt="Logo" className="-mb-16"></img>
           <h1 className="text-4xl font-extrabold">League</h1>
           <div className="flex flex-col items-center gap-4">
