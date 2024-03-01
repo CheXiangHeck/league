@@ -62,7 +62,7 @@ export default function page() {
       </div>
       <div className="w-full h-full snap-center flex items-center justify-center">
         <div className="w-[350px] h-[450px] text-black flex flex-col justify-center items-center rounded-3xl bg-white p-10 gap-10">
-            <Image src="/LeagueLogo.png" alt="Logo" className="mb-16" width={500} height={500} />
+          <Image src="/LeagueLogo.png" alt="Logo" className="mb-16" width={500} height={500} />
           <h1 className="text-4xl font-extrabold">League</h1>
           <div className="flex flex-col items-center gap-4">
             <div className="flex gap-5">
