@@ -1,6 +1,7 @@
 import { UserButton } from "@clerk/nextjs";
 import "./home.css";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function page() {
   return (
@@ -8,7 +9,7 @@ export default function page() {
       <div className="w-full h-[5px] bg-[#1efff9] fixed top-0 scroll-progressbar transition-all"></div>
       <div className="w-full h-full flex flex-col justify-center items-center relative snap-center">
         <div className="masked-text">
-          <img src="Thresh.gif" alt="Thresh"></img>
+          <Image src="/Thresh.gif" alt="Thresh" width={500} height={500} />
         </div>
         <p className="font-Fredoka font-extrabold text-sm text-zinc-400">
           Welcome to League
