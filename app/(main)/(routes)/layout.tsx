@@ -11,7 +11,7 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
     },
     {
       href: "About",
-      location: "/About",
+      location: "/about",
     },
     {
       href: "Project",
@@ -76,7 +76,7 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
           </a>
         ))}
         <div className="absolute bottom-0 left-0 m-2">
-          <UserButton />
+          <UserButton afterSignOutUrl="/sign-in" />
         </div>
         <div className="w-full h-full sidebar-background absolute bg-center bg-cover top-0 blur-md -z-30"></div>
       </div>

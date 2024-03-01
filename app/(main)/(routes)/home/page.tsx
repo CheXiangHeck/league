@@ -2,7 +2,7 @@ import { UserButton } from "@clerk/nextjs";
 import "./home.css";
 import Link from "next/link";
 
-export default function page() {
+export default function Page() {
   return (
     <div className="w-full h-full overflow-y-scroll scrollbar-hidden whole-page scroll-smooth snap-both snap-mandatory cursor-default">
       <div className="w-full h-[5px] bg-[#1efff9] fixed top-0 scroll-progressbar transition-all"></div>

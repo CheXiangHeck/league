@@ -17,6 +17,14 @@ body,
   cursor: url(./cursorpointer.png), auto;
 }
 
+.background-DRX-fixed {
+  background-image: url(../public/DRX-Team.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
