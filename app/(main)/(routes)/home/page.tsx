@@ -8,10 +8,10 @@ export default function page() {
     <div className="w-full h-full overflow-y-scroll scrollbar-hidden whole-page scroll-smooth snap-both snap-mandatory cursor-default">
       <div className="w-full h-[5px] bg-[#1efff9] fixed top-0 scroll-progressbar transition-all"></div>
       <div className="w-full h-full flex flex-col justify-center items-center relative snap-center">
-        <div className="masked-text">
+        <div className="masked-text mt-10">
           <Image src="/Thresh.gif" alt="Thresh" width={500} height={500} />
         </div>
-        <p className="font-Fredoka font-extrabold text-sm text-zinc-400">
+        <p className="font-Fredoka font-extrabold text-sm text-zinc-400 mb-20 z-1">
           Welcome to League
         </p>
         <div className="flex flex-col absolute bottom-0 mb-5 items-center">
