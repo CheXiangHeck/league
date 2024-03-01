@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 
-export const ChampionPage: React.FC = () => {
+export default function ChampionPage(){
     return (
         <section className="p-4">
             <div className="grid grid-cols-4 gap-12 p-12">
@@ -34,5 +34,3 @@ export const ChampionPage: React.FC = () => {
         </section>
     );
 };
-
-export default ChampionPage;

@@ -1,7 +1,7 @@
 .masked-text{
-    -webkit-mask-image: url(league.png);
-    mask-image: url(league.png);
-    mask-size: 100% 100%;
+    -webkit-mask-image: url(leagueoflegends.png);
+    mask-image: url(leagueoflegends.png);
+    mask-size: contain;
     -webkit-mask-repeat: no-repeat;
     mask-repeat: no-repeat;  
 }
@@ -16,7 +16,7 @@
 
 .backgroundforchr {
     background-image: url(Thresh.gif);
-    filter:blur(10px);
+    filter: blur(25px);
     background-repeat: no-repeat;
     background-size: cover;
 }

@@ -1,16 +1,17 @@
 import { UserButton } from "@clerk/nextjs";
 import "./home.css";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Page() {
   return (
     <div className="w-full h-full overflow-y-scroll scrollbar-hidden whole-page scroll-smooth snap-both snap-mandatory cursor-default">
       <div className="w-full h-[5px] bg-[#1efff9] fixed top-0 scroll-progressbar transition-all"></div>
       <div className="w-full h-full flex flex-col justify-center items-center relative snap-center">
-        <div className="masked-text">
-          <img src="Thresh.gif" alt="Thresh"></img>
+        <div className="masked-text mt-10">
+          <Image src="/Thresh.gif" alt="Thresh" width={500} height={500} />
         </div>
-        <p className="font-Fredoka font-extrabold text-sm text-zinc-400">
+        <p className="font-Fredoka font-extrabold text-sm text-zinc-400 mb-20 z-1">
           Welcome to League
         </p>
         <div className="flex flex-col absolute bottom-0 mb-5 items-center">
@@ -35,7 +36,7 @@ export default function Page() {
           </Link>
         </div>
         <div className="md:w-1/2 md:h-2/3 absolute right-0 -z-10 maskcharacterimage">
-          <img src="Thresh.gif" className="w-full h-full"></img>
+          <Image className="w-full h-full" src="/Thresh.gif" alt="Thresh" width={500} height={500} />
         </div>
       </div>
       <div className="w-full h-full flex gap-5 p-5 relative justify-center snap-center">
@@ -50,7 +51,7 @@ export default function Page() {
           </Link>
         </div>
         <div className="w-[30%] h-full flex items-center">
-          <img className="w-full h-1/2" alt="News Image" src="Thresh.gif"></img>
+          <Image className="w-full h-1/2" alt="News Image" src="/Thresh.gif" width={500} height={500} />
         </div>
         <div className="absolute bottom-12">
           <button
@@ -61,7 +62,7 @@ export default function Page() {
       </div>
       <div className="w-full h-full snap-center flex items-center justify-center">
         <div className="w-[350px] h-[450px] text-black flex flex-col justify-center items-center rounded-3xl bg-white p-10 gap-10">
-          <img src="LeagueLogo.png" alt="Logo" className="-mb-16"></img>
+          <Image src="/LeagueLogo.png" alt="Logo" className="" width={500} height={500} />
           <h1 className="text-4xl font-extrabold">League</h1>
           <div className="flex flex-col items-center gap-4">
             <div className="flex gap-5">
