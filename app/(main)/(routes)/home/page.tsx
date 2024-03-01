@@ -36,7 +36,7 @@ export default function page() {
           </Link>
         </div>
         <div className="md:w-1/2 md:h-2/3 absolute right-0 -z-10 maskcharacterimage">
-          <img src="Thresh.gif" className="w-full h-full"></img>
+          <Image className="w-full h-full" src="/Thresh.gif" alt="Thresh" width={500} height={500} />
         </div>
       </div>
       <div className="w-full h-full flex gap-5 p-5 relative justify-center snap-center">
@@ -51,7 +51,7 @@ export default function page() {
           </Link>
         </div>
         <div className="w-[30%] h-full flex items-center">
-          <img className="w-full h-1/2" alt="News Image" src="Thresh.gif"></img>
+          <Image className="w-full h-1/2" alt="News Image" src="/Thresh.gif" width={500} height={500} />
         </div>
         <div className="absolute bottom-12">
           <button
@@ -62,7 +62,7 @@ export default function page() {
       </div>
       <div className="w-full h-full snap-center flex items-center justify-center">
         <div className="w-[350px] h-[450px] text-black flex flex-col justify-center items-center rounded-3xl bg-white p-10 gap-10">
-          <img src="LeagueLogo.png" alt="Logo" className="-mb-16"></img>
+            <Image src="/LeagueLogo.png" alt="Logo" className="mb-16" width={500} height={500} />
           <h1 className="text-4xl font-extrabold">League</h1>
           <div className="flex flex-col items-center gap-4">
             <div className="flex gap-5">
