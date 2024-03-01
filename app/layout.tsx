@@ -17,14 +17,21 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <ClerkProvider>
-      <ThemeProvider
-        attribute="class"
-        defaultTheme="dark"
-        disableTransitionOnChange
-      >
-        {children}
-      </ThemeProvider>
-    </ClerkProvider>
+      <html lang="en">
+        {
+        }
+        <head />
+          <body className={inter.className}>
+             <ClerkProvider>
+              <ThemeProvider
+              attribute="class"
+              defaultTheme="dark"
+              disableTransitionOnChange
+              >
+                {children}
+              </ThemeProvider>
+             </ClerkProvider>
+          </body>
+      </html>
   );
 }
