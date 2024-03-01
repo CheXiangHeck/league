@@ -18,17 +18,13 @@ export default function RootLayout({
 }>) {
   return (
     <ClerkProvider>
-      <html lang="en">
-        <body className={inter.className}>
-          <ThemeProvider
-          attribute="class"
-          defaultTheme="dark"
-          disableTransitionOnChange
-          >
-            {children}
-          </ThemeProvider>
-        </body>
-      </html>
+      <ThemeProvider
+        attribute="class"
+        defaultTheme="dark"
+        disableTransitionOnChange
+      >
+        {children}
+      </ThemeProvider>
     </ClerkProvider>
   );
 }
