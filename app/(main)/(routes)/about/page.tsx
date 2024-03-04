@@ -41,10 +41,10 @@ export default function Page() {
                 <h1 className="absolute z-10">
                   As a software engineering student, I have been constantly and seriously learning about web development since 2021 
                   and I have been playing League of Legends since 2014
-                  which is about 8 years+ For me, league of legends is very fun with all these new metas and updates.
+                  which is about 8 years plus. For me, league of legends is very fun with all these new metas and updates.
                   Certainly, I have love and hate relationship with League of Legends. 
                   Sometimes I get frustrated over the game and took a break from it but I always come back to it 
-                  More than that, League of Leends has been my life as well. 
+                  More than that, League of Leends has been part of my life as well. 
                   Although I am not a ranked player (professional grinder) but I enjoy playing ARAM & events such as Ultra Rapid Fire (URF) nevertheless. 
                   As an avid LoL player, we all want to know how we can ultilize the character&apos;s abilities to the fullest.
                   Therefore, me and Che decided to create this website to help new players to understand the character&apos;s abilities.
