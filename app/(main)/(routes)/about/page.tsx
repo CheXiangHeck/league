@@ -38,7 +38,7 @@ export default function Page() {
                 className="h-[200px] w-[200px] rounded-3xl cursor-pointer border-2 my-3"
               ></img>
               <div className="w-full h-full mx-10 overflow-scroll md:overflow-hidden relative md:my-0 my-5">
-                <h1 className="absolute z-10">
+                <h1 className="absolute z-10 md:w-[1000px] h-[200px] ">
                   As a software engineering student, I have been constantly and seriously learning about web development since 2021 
                   and I have been playing League of Legends since 2014
                   which is about 8 years plus. For me, league of legends is very fun with all these new metas and updates.
@@ -49,7 +49,7 @@ export default function Page() {
                   As an avid LoL player, we all want to know how we can ultilize the character&apos;s abilities to the fullest.
                   Therefore, me and Che decided to create this website to help new players to understand the character&apos;s abilities.
                 </h1>
-                <QuoteIcon className=" text-blue-400 absolute right-0 md:mr-20 w-[80px] h-[80px]" />
+                <QuoteIcon className=" text-blue-400 absolute right-0 md:mr-70 w-[80px] h-[80px]" />
               </div>
             </div>
           </div>
@@ -61,7 +61,7 @@ export default function Page() {
                 className="h-[200px] w-[200px] rounded-3xl cursor-pointer border-2 my-3"
               ></img>
               <div className="w-full h-full mx-10 overflow-scroll md:overflow-hidden relative md:my-0 my-5">
-                <h1 className="absolute z-10">
+                <h1 className="absolute z-10 md:w-[1000px] h-[200px]">
                   I am very bad at League but this website I am sure I and
                   Zephrous could make the website works well. I will try my best
                   to make the website giving users a better experience. I am not
@@ -71,7 +71,7 @@ export default function Page() {
                   just too much for me to even play this game for fun so I wish
                   this website could help you guys to learn.
                 </h1>
-                <QuoteIcon className=" text-blue-400 absolute right-0 md:mr-20 w-[80px] h-[80px]" />
+                <QuoteIcon className=" text-blue-400 absolute right-0 md:mr-70 w-[80px] h-[80px]" />
               </div>
             </div>
           </div>
