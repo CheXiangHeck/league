@@ -1,8 +1,7 @@
+import { QuoteIcon } from "lucide-react";
 import Link from "next/link";
 
 export default function Page() {
-    
-
   return (
     <div className="w-full h-full whole-page">
       <div className="w-full h-[5px] bg-[#1efff9] fixed top-0 scroll-progressbar transition-all"></div>
@@ -31,15 +30,47 @@ export default function Page() {
         </div>
         <div className="md:w-[90%] w-[80%] h-full border-y-2 py-10 my-5">
           <h1 className="text-4xl text-[#1efff9] font-bold">About author</h1>
-          <div className="w-full h-[400px] py-5">
+          <div className="w-full md:h-[400px] h-[400px] py-5">
             <h1 className="w-full text-5xl underline">Zephrous</h1>
-            <div className="w-full h-full my-4 flex justify-center md:justify-normal">
+            <div className="w-full h-full my-4 flex flex-col md:flex-row items-center md:items-start">
               <img
                 src="https://avatars.githubusercontent.com/u/71692327?v=4"
-                className="h-[200px] w-[200px] rounded-3xl cursor-pointer border-2"
+                className="h-[200px] w-[200px] rounded-3xl cursor-pointer border-2 my-3"
               ></img>
-              <div className="w-full h-full">
-                <h1></h1>
+              <div className="w-full h-full mx-10 overflow-scroll md:overflow-hidden relative md:my-0 my-5">
+                <h1 className="absolute z-10">
+                  I am very bad at League but this website I am sure I and
+                  Zephrous could make the website works well. I will try my best
+                  to make the website giving users a better experience. I am not
+                  a very experienced player, matter of fact I just played this
+                  game for an hour. This game need a lot of experience,
+                  understand of your enemy kit, prediction and others. It is
+                  just too much for me to even play this game for fun so I wish
+                  this website could help you guys to learn.
+                </h1>
+                <QuoteIcon className=" text-blue-400 absolute right-0 md:mr-20 w-[80px] h-[80px]" />
+              </div>
+            </div>
+          </div>
+          <div className="w-full md:h-[400px] h-[400px] py-5">
+            <h1 className="w-full text-5xl underline">Che</h1>
+            <div className="w-full h-full my-4 flex flex-col items-center md:items-start md:flex-row">
+              <img
+                src="https://avatars.githubusercontent.com/u/138633798?s=400&v=4"
+                className="h-[200px] w-[200px] rounded-3xl cursor-pointer border-2 my-3"
+              ></img>
+              <div className="w-full h-full mx-10 overflow-scroll md:overflow-hidden relative md:my-0 my-5">
+                <h1 className="absolute z-10">
+                  I am very bad at League but this website I am sure I and
+                  Zephrous could make the website works well. I will try my best
+                  to make the website giving users a better experience. I am not
+                  a very experienced player, matter of fact I just played this
+                  game for an hour. This game need a lot of experience,
+                  understand of your enemy kit, prediction and others. It is
+                  just too much for me to even play this game for fun so I wish
+                  this website could help you guys to learn.
+                </h1>
+                <QuoteIcon className=" text-blue-400 absolute right-0 md:mr-20 w-[80px] h-[80px]" />
               </div>
             </div>
           </div>
