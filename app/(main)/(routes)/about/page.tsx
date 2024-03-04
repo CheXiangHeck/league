@@ -17,13 +17,13 @@ export default function Page() {
           </h1>
           <p className="mt-2">
             This website was created by Zephrous and Che on February 25, 2024.
-            It was inspired by our interest for League of Legends. We both
-            wanted to create a website together, which led us to the idea of
-            creating a site about League of Legends. The website is made for
+            League of Legends has been part of our lifes and inspired us to start liking 
+            and playing MOBA games. We both wanted to create a website together, which led us to the idea of
+            creating a website about League of Legends. The website is made for
             showing the abilities of the characters in League of Legends,
             allowing new users to understand the skills of the characters. This
             could be helpful for the users to know enemy character kit, giving
-            them to stand a chance against their enemies' attack. This website
+            them to stand a chance against the enemies. This website
             is a non-profit website which mean there will not have any money
             related product.
           </p>
@@ -39,14 +39,10 @@ export default function Page() {
               ></img>
               <div className="w-full h-full mx-10 overflow-scroll md:overflow-hidden relative md:my-0 my-5">
                 <h1 className="absolute z-10">
-                  I am very bad at League but this website I am sure I and
-                  Zephrous could make the website works well. I will try my best
-                  to make the website giving users a better experience. I am not
-                  a very experienced player, matter of fact I just played this
-                  game for an hour. This game need a lot of experience,
-                  understand of your enemy kit, prediction and others. It is
-                  just too much for me to even play this game for fun so I wish
-                  this website could help you guys to learn.
+                  As a software engineering student, I have been constantly and seriously learning about web development since 2021 and I have been playing League of Legends since 2014
+                  which is about 8 years+ For me, league of legends is very fun with all these new metas and updates.
+                  I am not a ranked player but I enjoy playing ARAM & events such as URF. URF is one of my 
+                  first event that I played and I really enjoy it. I hope this website could help you guys to learn
                 </h1>
                 <QuoteIcon className=" text-blue-400 absolute right-0 md:mr-20 w-[80px] h-[80px]" />
               </div>
