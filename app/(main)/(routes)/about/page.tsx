@@ -43,7 +43,7 @@ export default function Page() {
                   and I have been playing League of Legends since 2014
                   which is about 8 years plus. For me, league of legends is very fun with all these new metas and updates.
                   Certainly, I have love and hate relationship with League of Legends. 
-                  Sometimes I get frustrated over the game and took a break from it but I always come back to it 
+                  Sometimes I get frustrated over the game and took a break from it but I always come back to LoL. 
                   More than that, League of Leends has been part of my life as well. 
                   Although I am not a ranked player (professional grinder) but I enjoy playing ARAM & events such as Ultra Rapid Fire (URF) nevertheless. 
                   As an avid LoL player, we all want to know how we can ultilize the character&apos;s abilities to the fullest.
