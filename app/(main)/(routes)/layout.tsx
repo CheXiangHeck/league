@@ -2,6 +2,7 @@
 import { ThemeProvider } from "@/components/theme-provider/theme-provider";
 import "./layout.css";
 import { UserButton } from "@clerk/nextjs";
+import Image from "next/image";
 
 const Layout = ({ children }: { children: React.ReactNode }) => {
   const sidebarcontents = () => [
@@ -64,7 +65,7 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
           X
         </div>
         <div className="h-1/2 w-full flex items-center justify-center">
-          <img className="md:h-1/4 w-[80%] h-1/6" src="league.png"></img>
+          <Image width={300} height={300} src="/league.png" alt="league of legends"></Image>
         </div>
         {sidebarcontents().map((sidebarcontent) => (
           <a
