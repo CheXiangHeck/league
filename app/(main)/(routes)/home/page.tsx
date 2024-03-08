@@ -20,7 +20,7 @@ export default function Page() {
           </div>
           <p className="font-Fredoka font-extrabold text-sm text-zinc-400 mb-20 -mt-20 z-1">
             Welcome to League
-          </p>
+          </p>2 
         </div>
         <div className="flex flex-col absolute bottom-0 mb-5 items-center">
           <h1 className="text-sm font-extrabold">Scroll Down</h1>
